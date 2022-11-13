@@ -16,8 +16,7 @@ const About = () => {
         <p className="text-xl mt-20">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eos nisi
           corrupti esse voluptatem nihil facere temporibus. Praesentium, unde
-          reprehenderit, vitae ea iure omnis sit tenetur cum asperiores
-          voluptatibus eum!
+          reprehenderit,
         </p>
 
         <br />
@@ -25,11 +24,7 @@ const About = () => {
         <p className="text-xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
           inventore iste dignissimos tenetur! Perspiciatis earum corporis quia
-          voluptatum, nihil aspernatur nesciunt doloremque autem assumenda? Eius
-          fugiat enim similique minus aliquid?Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Sint inventore iste dignissimos tenetur!
-          Perspiciatis earum corporis quia voluptatum, nihil aspernatur nesciunt
-          doloremque autem assumenda? Eius fugiat enim similique minus aliquid?
+          voluptatum,
         </p>
       </div>
     </div>
