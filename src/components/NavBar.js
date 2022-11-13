@@ -71,7 +71,12 @@ const NavBar = () => {
                 key={id}
                 className="px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-105 duration-200 hover:text-white"
               >
-                <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>
+                <Link
+                  onClick={() => setNav(!nav)}
+                  to={link}
+                  smooth
+                  duration={500}
+                >
                   {link}
                 </Link>
               </li>
