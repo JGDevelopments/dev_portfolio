@@ -11,12 +11,12 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact
           </p>
-          <p className="py-5"></p>
+          <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
 
         <div className=" flex justify-center items-center">
           <form
-            action="https://getform.io/f/ab8a7f8e-a012-423e-9bb1-c3cdc025747d"
+            action="https://getform.io/f/61c99527-2b15-42cf-9b55-ad37d2f7daa6"
             method="POST"
             className=" flex flex-col w-full md:w-1/2"
           >
