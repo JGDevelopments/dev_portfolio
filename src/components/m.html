@@ -1,0 +1,51 @@
+<script>
+  var widget = document.currentScript.closest(".widget");
+  var widgetBody = widget.querySelector(".body");
+  var chartIndex = widgetBody.dataset.highchartsChart;
+  var chart = Highcharts.charts[chartIndex];
+  if (chart) {
+    chart.update(
+      {
+        plotOptions: {
+          series: {
+            connectNulls: false,
+            marker: {
+              enabled: true,
+              radius: 4,
+            },
+          },
+        },
+        chart: {
+          zooming: {
+            type: "x",
+          },
+          style: { fontFamily: "'Helvetica'" },
+        },
+        yAxis: {
+          tickAmount: 7,
+          showEmpty: true,
+          showFirstLabel: true,
+          showLastLabel: true,
+          labels: {
+            y: 4,
+            style: {
+              fontSize: "13px",
+              fontFamily: "'Helvetica'",
+              fontWeight: 700,
+              color: "#6F7171",
+            },
+          },
+        },
+      },
+      false
+    );
+
+    chart.redraw();
+  }
+</script>
+
+<!-- var widget = document.currentScript.closest(".widget");
+var widgetBody = widget.querySelector(".body");
+var chartIndex = widgetBody.dataset.highchartsChart;
+var chart = Highcharts.charts[chartIndex];
+if (chart) { -->

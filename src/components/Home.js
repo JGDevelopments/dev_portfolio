@@ -22,12 +22,12 @@ const Home = () => {
 
           <div>
             <Link
-              to="portfolio"
+              to="contact"
               smooth
               duration={500}
               className="group text-white font-medium hover:font-bold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-emerald-500 to-cyan-600 cursor-pointer"
             >
-              Portfolio
+              Contact
               <span className="group-hover:rotate-90 duration-300 ">
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>

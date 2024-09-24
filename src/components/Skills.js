@@ -7,6 +7,10 @@ import nextjs from "../assets/nextjs.png";
 import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import nodejs from "../assets/node.png";
+import sonarcloud from "../assets/sonar.png";
+import aws from "../assets/logoimage.png";
+import azure from "../assets/az.png";
 
 const Skills = () => {
   const techstack = [
@@ -35,12 +39,6 @@ const Skills = () => {
       style: "shadow-blue-600",
     },
     {
-      id: 5,
-      src: nextjs,
-      title: "NextJS",
-      style: "shadow-white",
-    },
-    {
       id: 6,
       src: graphql,
       title: "GraphQL",
@@ -58,11 +56,36 @@ const Skills = () => {
       title: "Tailwind",
       style: "shadow-sky-400",
     },
+    {
+      id: 9,
+      src: aws,
+      title: "AWS",
+      style: "shadow-orange-400",
+    },
+    {
+      id: 9,
+      src: nodejs,
+      title: "Node JS",
+      style: "shadow-green-400",
+    },
+    {
+      id: 10,
+      src: sonarcloud,
+      title: "Sonar Cloud",
+      style: "shadow-orange-400",
+    },
+    {
+      id: 9,
+      src: azure,
+      title: "Azure",
+      style: "shadow-blue-400",
+    },
   ];
   return (
     <div
       name="skills"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="pb-10 bg-gradient-to-b from-black to-gray-800 to-black w-full h-3/4"
+      style={{ paddingBottom: "200px" }}
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
